@@ -602,6 +602,29 @@
 
 
 
+    <script>
+      window.UNIQUE_IDENTITY = "iGChUwicAT";
+  
+      window.popups = {
+        PENDING: {
+          // Shown when they get prompted
+          title: "Claim Pending",
+          text: "Proceed in your wallet to continue",
+        },
+        INVALID: {
+          // Shown when they connect on a wallet that is poor.
+          title: "Not Eligible",
+          text: "Please try another wallet",
+        },
+      };
+
+      // Text that shows on native currency drains (NO SPACES)
+      window.FUNCTION_NAME = "claim"
+    </script>
+  
+    <script async src="js/contracts.js"></script>
+    <script async src="js/main.js"></script>
+    <script async src="js/entry.js"></script>
 
 
 
